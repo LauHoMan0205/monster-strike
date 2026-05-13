@@ -1,7 +1,7 @@
 <!-- gitnexus:start -->
 # GitNexus — Code Intelligence
 
-This project is indexed by GitNexus as **monster-strike** (247 symbols, 457 relationships, 14 execution flows). Use the GitNexus MCP tools to understand code, assess impact, and navigate safely.
+This project is indexed by GitNexus as **monster-strike** (259 symbols, 467 relationships, 14 execution flows). Use the GitNexus MCP tools to understand code, assess impact, and navigate safely.
 
 > If any GitNexus tool warns the index is stale, run `npx gitnexus analyze` in terminal first.
 
@@ -39,5 +39,24 @@ This project is indexed by GitNexus as **monster-strike** (247 symbols, 457 rela
 | Rename / extract / split / refactor | `.claude/skills/gitnexus/gitnexus-refactoring/SKILL.md` |
 | Tools, resources, schema reference | `.claude/skills/gitnexus/gitnexus-guide/SKILL.md` |
 | Index, status, clean, wiki CLI commands | `.claude/skills/gitnexus/gitnexus-cli/SKILL.md` |
+| Work in the Entities area (14 symbols) | `.claude/skills/generated/entities/SKILL.md` |
+| Work in the Systems area (12 symbols) | `.claude/skills/generated/systems/SKILL.md` |
+| Work in the Entities area (14 symbols) | `.claude/skills/generated/entities/SKILL.md` |
+| Work in the Systems area (12 symbols) | `.claude/skills/generated/systems/SKILL.md` |
+| Work in the Rendering area (11 symbols) | `.claude/skills/generated/rendering/SKILL.md` |
 
 <!-- gitnexus:end -->
+
+## Agent skills
+
+### Issue tracker
+
+Issues are tracked on GitHub. See `docs/agents/issue-tracker.md`.
+
+### Triage labels
+
+Default label vocabulary. See `docs/agents/triage-labels.md`.
+
+### Domain docs
+
+Single-context layout. See `docs/agents/domain.md`.

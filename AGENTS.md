@@ -1,7 +1,7 @@
 <!-- gitnexus:start -->
 # GitNexus — Code Intelligence
 
-This project is indexed by GitNexus as **monster-strike** (247 symbols, 457 relationships, 14 execution flows). Use the GitNexus MCP tools to understand code, assess impact, and navigate safely.
+This project is indexed by GitNexus as **monster-strike** (259 symbols, 467 relationships, 14 execution flows). Use the GitNexus MCP tools to understand code, assess impact, and navigate safely.
 
 > If any GitNexus tool warns the index is stale, run `npx gitnexus analyze` in terminal first.
 
@@ -39,5 +39,49 @@ This project is indexed by GitNexus as **monster-strike** (247 symbols, 457 rela
 | Rename / extract / split / refactor | `.claude/skills/gitnexus/gitnexus-refactoring/SKILL.md` |
 | Tools, resources, schema reference | `.claude/skills/gitnexus/gitnexus-guide/SKILL.md` |
 | Index, status, clean, wiki CLI commands | `.claude/skills/gitnexus/gitnexus-cli/SKILL.md` |
+| Work in the Entities area (14 symbols) | `.claude/skills/generated/entities/SKILL.md` |
+| Work in the Systems area (12 symbols) | `.claude/skills/generated/systems/SKILL.md` |
+| Work in the Rendering area (11 symbols) | `.claude/skills/generated/rendering/SKILL.md` |
 
 <!-- gitnexus:end -->
+
+## Agent skills
+
+### Issue tracker
+
+Issues are tracked on GitHub. See `docs/agents/issue-tracker.md`.
+
+### Triage labels
+
+Default label vocabulary. See `docs/agents/triage-labels.md`.
+
+### Domain docs
+
+Single-context layout. See `docs/agents/domain.md`.
+
+### Resources
+
+| Task | Read this skill file |
+|------|---------------------|
+| Understand architecture / "How does X work?" | `.claude/skills/gitnexus/gitnexus-exploring/SKILL.md` |
+| Blast radius / "What breaks if I change X?" | `.claude/skills/gitnexus/gitnexus-impact-analysis/SKILL.md` |
+| Trace bugs / "Why is X failing?" | `.claude/skills/gitnexus/gitnexus-debugging/SKILL.md` |
+| Rename / extract / split / refactor | `.claude/skills/gitnexus/gitnexus-refactoring/SKILL.md` |
+| Tools, resources, schema reference | `.claude/skills/gitnexus/gitnexus-guide/SKILL.md` |
+| Index, status, clean, wiki CLI commands | `.claude/skills/gitnexus/gitnexus-cli/SKILL.md` |
+| Work in the Entities area (14 symbols) | `.claude/skills/generated/entities/SKILL.md` |
+| Work in the Systems area (12 symbols) | `.claude/skills/generated/systems/SKILL.md` |
+| Work in the Rendering area (11 symbols) | `.claude/skills/generated/rendering/SKILL.md` |
+| Plan: stress-test against domain model | `.agents/skills/grill-with-docs/SKILL.md` |
+| Plan: interview me on design | `.agents/skills/grill-me/SKILL.md` |
+| Plan: create PRD from context | `.agents/skills/to-prd/SKILL.md` |
+| Plan: break plans into issues | `.agents/skills/to-issues/SKILL.md` |
+| Plan: build throwaway prototype | `.agents/skills/prototype/SKILL.md` |
+| Dev: test-driven development | `.agents/skills/tdd/SKILL.md` |
+| Dev: diagnose hard bugs | `.agents/skills/diagnose/SKILL.md` |
+| Code: zoom out for perspective | `.agents/skills/zoom-out/SKILL.md` |
+| Code: improve architecture | `.agents/skills/improve-codebase-architecture/SKILL.md` |
+| Workflow: triage issues | `.agents/skills/triage/SKILL.md` |
+| Workflow: handoff to next agent | `.agents/skills/handoff/SKILL.md` |
+| Workflow: create new skills | `.agents/skills/write-a-skill/SKILL.md` |
+| Communication: caveman mode | `.agents/skills/caveman/SKILL.md` |
